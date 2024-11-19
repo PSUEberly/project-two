@@ -40,6 +40,7 @@ export class ProjectTwo extends DDDSuper(I18NMixin(LitElement)) {
     return {
       ...super.properties,
       title: { type: String },
+      hat: {type: String}
     };
   }
 
